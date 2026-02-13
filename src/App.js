@@ -10,8 +10,7 @@ function App() {
   
 const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
   const fetchWeather = async () => {
-    if (!city) return; // Don't search if the input is empty
-    
+    if (!city) return; // Don't search if the input is empty 
     try {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
