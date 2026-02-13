@@ -24,12 +24,12 @@ const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
   };
 
   // Allows pressing "Enter" to search
-  const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
-      fetchWeather();
-    }
-  };
-
+ // const handleKeyPress = (e) => {
+   //{// if (e.key === 'Enter') {
+      //fetchWeather();//}
+   // }//}
+ // };
+//
 // ... (imports and fetchWeather stay the same)
 
   return (
